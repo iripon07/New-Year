@@ -1,0 +1,39 @@
+/* Shared CSS styles  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-family: "Inter", sans-serif;
+}
+
+/*Banner related css styles*/
+header {
+  margin: 50px 140px 0px 140px;
+  background-image: url("../resources//Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h5 {
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+}
+.banner h1 {
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+}
