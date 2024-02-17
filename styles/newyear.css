@@ -37,3 +37,33 @@ header {
   text-align: center;
   color: #ffffff;
 }
+
+/* Celebration Part Related CSS Styles  */
+
+.celebration{
+    margin: 120px 399px 0 398px;
+}
+.celebration h1{
+    font-weight: 700;
+    font-size: 88px;
+    color: #FF0000;
+    text-align: center;
+    margin-bottom: 49px;
+}
+.celebration h5{
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.celebration h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: #070211;
+    text-align: center;
+    margin-bottom: 47px;
+}
+.celebration img{
+    width: 100%;
+}
