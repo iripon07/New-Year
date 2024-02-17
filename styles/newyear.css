@@ -27,7 +27,7 @@ header {
 .banner h5 {
   font-weight: 400;
   font-size: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-weight: 400;
 }
@@ -35,7 +35,7 @@ header {
   font-size: 72px;
   font-weight: 900;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Celebration Part Related CSS Styles  */
@@ -80,38 +80,63 @@ header {
   display: flex;
   justify-content: start;
   align-items: center;
+}
 
-  /* margin: 50px 140px 0px 140px;
-  background-image: url("../resources//Banner\ Image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.greeting div {
+  width: 50%;
+  margin-left: 126px;
+}
+.greeting h1 {
+  font-weight: 900;
+  font-size: 64px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.greeting p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+.greeting a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-left: 32px;
+}
+
+/* Address related CSS styles  */
+
+.address {
+  margin: 0px 140px 120px 140px;
+  background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
   border-radius: 20px;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
+  padding: 100px 0px 100px 0px; 
 }
 
-.greeting div{
-    width: 50%;
-    margin-left: 126px;
+.address h5{
+    font-weight: 600;
+    font-size: 32px;
+    color: #070211;
+    text-align: center;
 }
-.greeting h1{
-    font-weight: 900;
-    font-size: 64px;
-    color: #FFFFFF;
-    margin-bottom: 24px;
+.address span{
+    color: #FF0000;
 }
-.greeting p{
-    font-size: 18px;
-    font-weight: 400;
-    color: #FFFFFF;
-    margin-bottom: 48px;
+.address-link{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
 }
-.greeting a{
+.address a{
     text-decoration: none;
-    font-size: 20px;
+    background-color: #FF0000;
+    color: #ffffff;
     font-weight: 700;
-    color: #FFFFFF;
-    margin-left: 32px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 16px 32px;
+    text-align: center;
 }
