@@ -27,7 +27,7 @@ header {
 .banner h5 {
   font-weight: 400;
   font-size: 32px;
-  color: #ffffff;
+  color: #FFFFFF;
   text-align: center;
   font-weight: 400;
 }
@@ -35,35 +35,83 @@ header {
   font-size: 72px;
   font-weight: 900;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /* Celebration Part Related CSS Styles  */
 
-.celebration{
-    margin: 120px 399px 0 398px;
+.celebration {
+  margin: 120px 399px 0 398px;
 }
-.celebration h1{
+.celebration h1 {
+  font-weight: 700;
+  font-size: 88px;
+  color: #ff0000;
+  text-align: center;
+  margin-bottom: 49px;
+}
+.celebration h5 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ff0000;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.celebration h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #070211;
+  text-align: center;
+  margin-bottom: 47px;
+}
+.celebration img {
+  width: 100%;
+}
+
+/* Greeting part related CSS Styles  */
+
+.greeting {
+  margin: 120px 140px 120px 140px;
+  background-image: url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  /* margin: 50px 140px 0px 140px;
+  background-image: url("../resources//Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.greeting div{
+    width: 50%;
+    margin-left: 126px;
+}
+.greeting h1{
+    font-weight: 900;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.greeting p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+.greeting a{
+    text-decoration: none;
+    font-size: 20px;
     font-weight: 700;
-    font-size: 88px;
-    color: #FF0000;
-    text-align: center;
-    margin-bottom: 49px;
-}
-.celebration h5{
-    font-weight: 500;
-    font-size: 24px;
-    color: #FF0000;
-    text-align: center;
-    margin-bottom: 16px;
-}
-.celebration h2{
-    font-weight: 700;
-    font-size: 48px;
-    color: #070211;
-    text-align: center;
-    margin-bottom: 47px;
-}
-.celebration img{
-    width: 100%;
+    color: #FFFFFF;
+    margin-left: 32px;
 }
