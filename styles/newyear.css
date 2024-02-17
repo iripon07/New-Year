@@ -175,53 +175,118 @@ header {
   padding-left: 70px;
 }
 
-.best-offer-third-column{
-    width: 33.33%;
-    padding-left: 118px;
+.best-offer-third-column {
+  width: 33.33%;
+  padding-left: 118px;
 }
-.best-offer-third-column h2{
-    font-weight: 700;
-    font-size: 48px;
-    color: #FF0000;
-    margin-bottom: 15px;
+.best-offer-third-column h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #ff0000;
+  margin-bottom: 15px;
 }
-.best-offer-third-column p{
-    font-size: 400;
-    font-size: 20px;
-    color: rgba(7, 2, 17, 0.6);
-    margin-bottom: 43px;
+.best-offer-third-column p {
+  font-size: 400;
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 43px;
 }
-.best-offer-third-column img{
-    width: 140px;
-    height: 140px;
+.best-offer-third-column img {
+  width: 140px;
+  height: 140px;
 }
-
 
 /* Portfolio part related CSS styles  */
-.portfolio{
-    margin: 0px 140px 120px 140px;
+.portfolio {
+  margin: 0px 140px 120px 140px;
 }
-.portfolio h4{
-    font-weight: 500;
-    font-size: 24px;
-    color: #FF0000;
-    margin-bottom: 16px;
+.portfolio h4 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ff0000;
+  margin-bottom: 16px;
 }
-.portfolio h2{
-    font-size: 48px;
-    font-weight: 900;
-    color: #070211;
-    margin-bottom: 22px;
+.portfolio h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+  margin-bottom: 22px;
 }
-.portfolio p{
-    font-weight: 400;
-    font-size: 20px;
-    color: rgba(7, 2, 17, 0.6);
-    margin-bottom: 48px;
+.portfolio p {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 48px;
 }
-.portfolio-sample{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 24px;
+.portfolio-sample {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+
+/* COntact part related CSS styles  */
+.contact-container {
+  margin: 0px 140px 120px 140px;
+  background-color: rgba(255, 0, 0, 0.05);
+  padding: 80px 212px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact img {
+  width: 150px;
+  height: 150px;
+}
+.contact h2 {
+  font-weight: 900;
+  font-size: 48px;
+  color: #070211;
+  text-align: center;
+}
+.contact p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 648px;
+  height: 72px;
+}
+.input-field {
+  display: flex;
+}
+
+.input-field input {
+  border: none;
+  outline: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 438px;
+}
+.subscribe-btn {
+  background-color: #ff0000;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 24px 56px;
+  border-right: 20px;
+  text-decoration: none;
+  border: none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 210px;
 }
